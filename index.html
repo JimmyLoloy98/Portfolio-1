@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <meta charset="UTF-8" />
-    <title>Leonidas Esteban</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jimmy Loloy</title>
     <link rel="icon" type="image/png" href="images/favicon.png" />
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro" rel="stylesheet">
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <header class="header">
       <div class="container">
         <figure class="logo">
-          <img src="images/logo.png" height="50" alt="Logo de http://leonidasesteban.com" />
+          <a href="/index.html">
+          <img src="img/logo-portfolio-white.png" height="50" alt="Logo portfolio"/>
+          </a>
         </figure>
         <nav class="menu">
           <ol>
@@ -22,7 +25,7 @@
               <a class="link" href="#eventos">Experiencia</a>
             </li>
             <li>
-              <a class="link" href="#contacto">Trabajemos juntos</a>
+              <a class="link" href="#contacto">Contacto</a>
             </li>
           </ol>
         </nav>
@@ -30,10 +33,12 @@
     </header>
     <section class="hero">
       <div class="container">
-        <h1>
-          Hola! Soy <strong>Leonidas Esteban</strong> <br/> Desarrollador  <strong>Javascript</strong> con <br> pasión por la <strong>enseñanza</strong>
-        </h1>
-        <img class="hero-image" src="images/hero.jpg" width="500" height="300" alt="imagen principal del sitio"> 
+          <h1>
+            Hola! Soy <strong>Jimmy Loloy <br></strong>Developer & Designer 
+            <strong>Frontend </strong><br>con pasión por <strong>compartir 
+            <br>conocimientos</strong>, y siempre abierto <br>al <strong>Feedback</strong>
+          </h1>
+          <img class="hero-image" src="img/photoMain.jpg" width="470" height="300" alt="Imagen principal"> 
       </div>
     </section>
     <section id="portafolio" class="portfolio">
@@ -41,30 +46,31 @@
         <h2>Portafolio (Proyectos Destacados)</h2>
       <article class="project">
         <div class="project-details">
-          <h3 class="project-title">Platzi Video</h3>
-          <h6 class="project-course">React Native / React</h6>
-          <p class="project-date"><small><strong>Fecha:</strong> 01/07/2018</small></p>
-          <p class="project-url"><small><strong>Puedes verlo en:</strong> www.platzi.com/native</small></p>
-          <p class="project-description">Platzi Video fue el resultado de 3 meses de trabajo
-              para crear la mejor app para enseñar el funcionamiento
-              de React y React Native. Desde crear un vista-detalle, hasta patrones avanzados de nevegación, este proyecto ha sido el ejemplo de futuros creadores de aplicaciones multiplataforma</p>
+          <h3 class="project-title">OpenTech</h3>
+          <h6 class="project-course">Next.JS / TailwindCSS</h6>
+          <p class="project-date"><small><strong>Fecha:</strong> 09/10/2019</small></p>
+          <p class="project-url"><small><strong>Puedes verlo en:</strong> opentech.pe</small></p>
+          <p class="project-description">OpenTech Community es el resultado de 2 meses de trabajo, para crear 
+            una página web donde se encuentra información relevante acerca de la comunidad. Desde sus inicios, hace 
+            aproximadamente un año, hecho inicialmente con la librería React.JS. Este proyecto fue elaborado en 
+            coordinación con los founders de la comunidad.</p>
         </div>
         <figure class="project-imageContainer">
-          <img class="project-image" width="500" src="images/platzi-video-react-native.png" alt="prouyecto del curso de React Native">
+          <img class="project-image" width="500" src="img/projects-image.png" alt="Proyecto de la comunidad OpenTech">
         </figure>
       </article>
       <article class="project">
           <div class="project-details">
-            <h3 class="project-title">Platzi Video</h3>
-            <h6 class="project-course">React Native / React</h6>
-            <p class="project-date"><small><strong>Fecha:</strong> 01/07/2018</small></p>
-            <p class="project-url"><small><strong>Puedes verlo en:</strong> www.platzi.com/native</small></p>
-            <p class="project-description">Platzi Video fue el resultado de 3 meses de trabajo
-                para crear la mejor app para enseñar el funcionamiento
-                de React y React Native. Desde crear un vista-detalle, hasta patrones avanzados de nevegación, este proyecto ha sido el ejemplo de futuros creadores de aplicaciones multiplataforma</p>
+            <h3 class="project-title">CV Digital</h3>
+            <h6 class="project-course">HTML5 / CSS3</h6>
+            <p class="project-date"><small><strong>Fecha:</strong> 06/08/2020</small></p>
+            <p class="project-url"><small><strong>Puedes verlo en:</strong> www.jimmyloloy.com/cv</small></p>
+            <p class="project-description">Mi Curriculum Vitae fue el resultado de 1 mes de trabajo, usando 
+            tecnologías HTML5 y CSS3 únicamente. Apliqué la metodología Mobile First y es aún escalable a futuro, 
+            este proyecto ha sido la base para iniciar mi portafolio y no será el primero.</p>
           </div>
           <figure class="project-imageContainer">
-            <img class="project-image" width="500" src="images/platzi-video-react-native.png" alt="prouyecto del curso de React Native">
+            <img class="project-image" width="500" src="img/projects-image.png" alt="Proyecto de Oscar Barajas">
           </figure>
         </article>
       </div>
@@ -77,15 +83,27 @@
       <div class="container">
         <article class="event">
           <figure class="event-imageContainer">
-            <img class="event-image" src="images/platzi-conf.jpg" width="500" />
+            <img class="event-image" src="img/Wallpaper.png" width="500" alt="Event image"/>
           </figure>
           <div class="event-detail">
-            <h3 class="event-title">PlatziConf México 2018</h3>
-            <p class="event-description">El evento más grande sobre gente que quiere aprender más de internet. En esté evento te comparto como tener una vida de constante aprendizaje.</p>
-            <a class="event-url" href="https://www.youtube.com/watch?v=BIS7cWGgJg0" target="_blank">Ver Plática</a>
+            <h3 class="event-title">OpenTech Meetups</h3>
+            <p class="event-description">El evento más grande sobre gente que quiere aprender más de internet. 
+            En esté evento te comparto como tener una vida de constante aprendizaje.</p>
+            <a class="event-url" href="https://www.opentech.pe" target="_blank">Ver Plática</a>
           </div>
         </article>
         <article class="event">
+          <figure class="event-imageContainer">
+            <img class="event-image" src="img/Wallpaper.png" width="500" alt="Event image"/>
+          </figure>
+          <div class="event-detail">
+            <h3 class="event-title">OpenTech Meetups</h3>
+            <p class="event-description">El evento más grande sobre gente que quiere aprender más de internet. 
+            En esté evento te comparto como tener una vida de constante aprendizaje.</p>
+            <a class="event-url" href="https://www.opentech.pe" target="_blank">Ver Plática</a>
+          </div>
+        </article>
+        <!-- <article class="event">
           <figure class="event-imageContainer">
             <img class="event-image" src="images/platzi-conf.jpg" width="500" />
           </figure>
@@ -104,43 +122,27 @@
             <p class="event-description">El evento más grande sobre gente que quiere aprender más de internet. En esté evento te comparto como tener una vida de constante aprendizaje.</p>
             <a class="event-url" href="https://www.youtube.com/watch?v=BIS7cWGgJg0" target="_blank">Ver Plática</a>
           </div>
-        </article>
-        <article class="event">
-          <figure class="event-imageContainer">
-            <img class="event-image" src="images/platzi-conf.jpg" width="500" />
-          </figure>
-          <div class="event-detail">
-            <h3 class="event-title">PlatziConf México 2018</h3>
-            <p class="event-description">El evento más grande sobre gente que quiere aprender más de internet. En esté evento te comparto como tener una vida de constante aprendizaje.</p>
-            <a class="event-url" href="https://www.youtube.com/watch?v=BIS7cWGgJg0" target="_blank">Ver Plática</a>
-          </div>
-        </article>
+        </article> -->
       </div>
     </section>
     <section id="contacto" class="contact">
       <div class="container">
-        <form action="/suscripcion/" class="form-email">
-          <h3>¿Creamos algo juntos?</h3>
-          <input type="text" placeholder="Déjame tu email" id="email">
-          <button>Enviar</button>
-        </form>
         <div class="social">
-          <a href="https://twitter.com/leonidasesteban" class="social-link twitter"></a>
-          <a href="https://facebook.com/leonidas.esteban" class="social-link facebook"></a>
-          <a href="https://github.com/leonidasesteban" class="social-link github"></a>
-          <a href="https://instagram.com/leonidasesteban" class="social-link instagram"></a>
+          <a href="https://linkedin.com/in/JimmyLoloy98" class="social-link linkedin" target="_blank"></a>
+          <a href="https://github.com/JimmyLoloy98" class="social-link github" target="_blank"></a>
+          <a href="https://twitter.com/JimmyLoloy98" class="social-link twitter" target="_blank"></a>
+          <a href="https://facebook.com/JimmyLoloy98" class="social-link facebook" target="_blank"></a>
+          <a href="https://instagram.com/JimmyLoloy98" class="social-link instagram" target="_blank"></a>
         </div>
       </div>
     </section>
     <footer class="footer">
       <div class="container">
         <div>
-          <p>Curso de Desarrollo web online 2018 <img src="images/platzi.png" width="80" alt="platzi"></p>
+          <p>Curso de Diseño Web Responsivo - <a href="http://platzi.com" target="_blank" rel="noopener noreferrer"><strong>@Platzi</strong></a></p>
         </div>
         <div>
-          <p>
-            Designed with <\3 by <a href="https://twitter.com/thespianartist">@thespianartist</a>
-          </p>
+          <p>Designed with &hearts; by: <a href="https://twitter.com/JimmyLoloy98" target="_blank"><strong>@JimmyLoloy</strong></a></p>
         </div>
       </div>
     </footer>
